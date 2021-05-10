@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="euc-kr"?>
+	<Stage>
+		<Object>
+			<File>models\\box_start.xml</File>
+			<Type>event_box</Type>
+ 			<Position>[0,15,0]</Position>
+			<Rotation>[0,0,0]</Rotation>
+			<EVENT_BOX_ID>1</EVENT_BOX_ID>
+		</Object>
+		<Object>
+			<File>models\\box.xml</File>
+			<Type>box</Type>
+ 			<Position>[0,15,0]</Position>
+			<Rotation>[0,0,0]</Rotation>
+		</Object>
+		<Object>
+			<File>models\\drum.xml</File>
+			<Type>box</Type>
+ 			<Position>[0,28,0]</Position>
+			<Rotation>[0,0,0]</Rotation>
+		</Object>
+	</Stage>

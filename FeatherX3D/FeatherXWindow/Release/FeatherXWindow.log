@@ -1,0 +1,49 @@
+﻿빌드 시작: 2013-01-10 오전 12:04:53
+     1>2 노드의 "C:\FeatherX\FeatherXWindow\FeatherXWindow.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Release\FeatherXWindow.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         모든 출력이 최신 상태입니다.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\FeatherX\Release\FeatherXWindow.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib dxerr9.lib d3dx9.lib d3d9.lib d3dxof.lib dxguid.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comctl32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib dinput8.lib opencv_calib3d241.lib opencv_contrib241.lib opencv_core241.lib opencv_features2d241.lib opencv_flann241.lib opencv_haartraining_engine.lib opencv_highgui241.lib opencv_imgproc241.lib opencv_legacy241.lib opencv_ml241.lib opencv_objdetect241.lib opencv_nonfree241.lib Imm32.lib freetype238MT.lib TinyxmlD_2010.lib FeatherXEngine.lib Version.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\FeatherXWindow.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\FeatherX\Release\FeatherXWindow.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\FeatherX\Release\FeatherXWindow.lib" /MACHINE:X86 Release\FeatherXWindow.obj
+         Release\FeatherXWindowPrecompile.obj
+         Release\GameMain.obj
+         C:\Output\Lib\Win32\clock_Release.lib
+         C:\FeatherX\Lib\FeatherXBase.lib
+         C:\FeatherX\Lib\FeatherXClient.lib
+         C:\FeatherX\Lib\FeatherXEngineCommon.lib
+         C:\FeatherX\Lib\FeatherXEngine.lib
+         C:\Output\Lib\Win32\FeatherXFile_Release.lib
+         C:\Output\Lib\Win32\FeatherXPhysX_Release.lib
+         C:\Output\Lib\Win32\FeatherXZlib_Release.lib
+     1>TinyxmlD_2010.lib(tinyxml.obj) : warning LNK4075: '/EDITANDCONTINUE'이(가) '/OPT:ICF' 사양으로 인해 무시됩니다.
+     1>MSVCRT.lib(cinitexe.obj) : warning LNK4098: 'libcmt.lib' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+     1>MSVCRT.lib(cinitexe.obj) : warning LNK4098: 'libcmtd.lib' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+     1>TinyxmlD_2010.lib(tinystr.obj) : warning LNK4099: 'vc100.pdb' PDB를 'TinyxmlD_2010.lib(tinystr.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>TinyxmlD_2010.lib(tinyxml.obj) : warning LNK4099: 'vc100.pdb' PDB를 'TinyxmlD_2010.lib(tinyxml.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>TinyxmlD_2010.lib(tinyxmlerror.obj) : warning LNK4099: 'vc100.pdb' PDB를 'TinyxmlD_2010.lib(tinyxmlerror.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>TinyxmlD_2010.lib(tinyxmlparser.obj) : warning LNK4099: 'vc100.pdb' PDB를 'TinyxmlD_2010.lib(tinyxmlparser.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FeatherXZlib_Release.lib(zutil.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FeatherXZlib_Release.lib(zutil.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FeatherXZlib_Release.lib(uncompr.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FeatherXZlib_Release.lib(uncompr.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FeatherXZlib_Release.lib(trees.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FeatherXZlib_Release.lib(trees.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FeatherXZlib_Release.lib(inftrees.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FeatherXZlib_Release.lib(inftrees.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FeatherXZlib_Release.lib(inflate.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FeatherXZlib_Release.lib(inflate.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FeatherXZlib_Release.lib(inffast.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FeatherXZlib_Release.lib(inffast.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FeatherXZlib_Release.lib(deflate.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FeatherXZlib_Release.lib(deflate.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FeatherXZlib_Release.lib(crc32.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FeatherXZlib_Release.lib(crc32.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FeatherXZlib_Release.lib(compress.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FeatherXZlib_Release.lib(compress.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FeatherXZlib_Release.lib(adler32.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FeatherXZlib_Release.lib(adler32.obj)' 또는 'C:\FeatherX\Release\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+         FeatherXWindow.vcxproj -> C:\FeatherX\Release\FeatherXWindow.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\FeatherX\Release\FeatherXWindow.exe;#1" /manifest Release\FeatherXWindow.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Release\FeatherXWindow.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\FeatherXWindow.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\FeatherX\FeatherXWindow\FeatherXWindow.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:13.00

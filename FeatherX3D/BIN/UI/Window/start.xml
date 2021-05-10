@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<window id="start" style="default" caption="0">
+    <pos x="0" y="0" />
+    <size width="300" height="130" />
+    <control id="start" caption="0" tooltip="-1" ani="" style="" font_name="font2" font_size="72" font_flag="al_left|ft_bold|" x="0" y="0" width="300" height="130" color="ff000000" />
+</window>

@@ -1,0 +1,19 @@
+texture ColorMap;
+sampler ColorMapSampler = sampler_state{};
+
+texture BumpMap;
+sampler BumpMapSampler = sampler_state{};
+
+
+// -------------------------------------------------------------
+// Pixel Shader (input channels):output channel
+// -------------------------------------------------------------
+float4 PS(float3 LightDir: COLOR0, float2 Tex: TEXCOORD0, float2 Tex2 : TEXCOORD1) : COLOR
+{
+    float4 color = tex2D(ColorMapSampler, Tex);	// fetch color map
+    float3 bumpNormal = 2 * (tex2D(BumpMapSampler, Tex2) - 0.5); // bump map
+    
+    float4 diff = saturate(dot(bumpNormal, (LightDir - 0.5) * 2)); // diffuse comp.
+ 	
+ 	return color * diff;
+}

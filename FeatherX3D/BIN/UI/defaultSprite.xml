@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<sprite>
+    <control>
+        <type>static</type>
+        <type>button</type>
+        <type>edit</type>
+        <type>number</type>
+        <type>combo</type>
+        <type>v_scroll</type>
+        <type>h_scroll</type>
+        <type>listbox</type>
+        <type>v_slider</type>
+        <type>h_slider</type>
+        <type>tab</type>
+        <type>gauge</type>
+        <type>gauge_nobg</type>
+        <type>anistatic</type>
+        <type>pushbutton</type>
+        <type>checkbutton</type>
+        <type>static_multiline</type>
+        <type>static_clock</type>
+    </control>
+    <ani type="static" name="clock" set="1">
+        <tex name="ui\sprite\clock2.png" width="64" height="64" />
+    </ani>
+    <ani type="number" name="number_damage_s" set="1">
+        <tex name="ui\sprite\damage_number_s.png" width="324" height="45" />
+    </ani>
+    <ani type="button" name="LB_Def_button09" set="4">
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_01.png" width="45" height="45" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_02.png" width="4" height="45" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_03.png" width="45" height="45" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_04.png" width="45" height="45" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_05.png" width="4" height="45" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_06.png" width="45" height="45" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_07.png" width="45" height="45" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_08.png" width="4" height="45" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_09.png" width="45" height="45" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_10.png" width="45" height="45" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_11.png" width="4" height="45" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button08_12.png" width="45" height="45" />
+    </ani>
+    <ani type="button" name="LB_Def_button10" set="4">
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_01.png" width="24" height="36" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_02.png" width="24" height="36" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_03.png" width="24" height="36" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_04.png" width="24" height="36" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_05.png" width="24" height="36" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_06.png" width="24" height="36" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_07.png" width="24" height="36" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_08.png" width="24" height="36" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_09.png" width="24" height="36" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_10.png" width="24" height="36" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_11.png" width="24" height="36" />
+        <tex name="ui\sprite\1024\ui_0808\lb_def_button\lb_def_button10_12.png" width="24" height="36" />
+    </ani>   
+</sprite>

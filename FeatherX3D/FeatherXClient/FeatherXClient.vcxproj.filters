@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Precompile">
+      <UniqueIdentifier>{3409cf80-0fc3-438e-8d86-fe69cd76fb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXClientManager">
+      <UniqueIdentifier>{cec0b358-9786-4c21-865b-17d8ca0675fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FCEventBox">
+      <UniqueIdentifier>{8ab86242-3feb-4f58-8c57-df2c8285bf96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FCCharacter">
+      <UniqueIdentifier>{f55ee3ef-1efe-44f1-b55b-f41750546f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FCWorld">
+      <UniqueIdentifier>{b6633f6a-9af5-4716-8bd2-b253af9cdfe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{59a0e799-ab29-40cc-b6e7-1aa99039a2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FCGameMain">
+      <UniqueIdentifier>{71cd2e87-fb05-4e58-8900-1813a1e86aa5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FeatherXClientPrecompile.h">
+      <Filter>Precompile</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXClientManager\FeatherXClientManager.h">
+      <Filter>FeatherXClientManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FCEventBox\FCEventBox.h">
+      <Filter>FCEventBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FCEventBox\FCEventBoxManager.h">
+      <Filter>FCEventBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FCEventBox\FCEventBoxJump.h">
+      <Filter>FCEventBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FCCharacter\FCCharacterPlayer.h">
+      <Filter>FCCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="FCCharacter\FCCharacterManager.h">
+      <Filter>FCCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="FCWaterfall\FCWaterfallManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FCWorld\FCWorld.h">
+      <Filter>FCWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="FCWorld\FCWorldManager.h">
+      <Filter>FCWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="FCWorld\FCWorldDef.h">
+      <Filter>FCWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="FCEventBox\FCEventBoxStart.h">
+      <Filter>FCEventBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FCEventBox\FCEventBoxDef.h">
+      <Filter>FCEventBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FCEventBox\FCEventBoxEnd.h">
+      <Filter>FCEventBox</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\FCUIManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FCGameMain\FCGameMain.h">
+      <Filter>FCGameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\FCUIGameMain.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\FCUIStart.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\FCUIEnd.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FeatherXClientPrecompile.cpp">
+      <Filter>Precompile</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXClientManager\FeatherXClientManager.cpp">
+      <Filter>FeatherXClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FCEventBox\FCEventBoxManager.cpp">
+      <Filter>FCEventBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FCEventBox\FCEventBox.cpp">
+      <Filter>FCEventBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FCEventBox\FCEventBoxJump.cpp">
+      <Filter>FCEventBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FCCharacter\FCCharacterPlayer.cpp">
+      <Filter>FCCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="FCCharacter\FCCharacterManager.cpp">
+      <Filter>FCCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="FCWaterfall\FCWaterfallManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FCWorld\FCWorld.cpp">
+      <Filter>FCWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="FCWorld\FCWorldManager.cpp">
+      <Filter>FCWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXClientManager\FeatherXClientManager_Input.cpp">
+      <Filter>FeatherXClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FCEventBox\FCEventBoxStart.cpp">
+      <Filter>FCEventBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FCEventBox\FCEventBoxEnd.cpp">
+      <Filter>FCEventBox</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\FCUIManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FCGameMain\FCGameMain.cpp">
+      <Filter>FCGameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\FCUIGameMain.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\FCUIStart.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\FCUIEnd.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

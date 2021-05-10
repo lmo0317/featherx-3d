@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4DC46726-CCC6-4F12-9557-032560CA83D6}</ProjectGuid>
+    <RootNamespace>FeatherXWindow</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\BIN\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Output/Object/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Include;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Include;../\OpenLibrary\Boost\include;../\OpenLibrary\PhysX\Cooking\include;../\OpenLibrary\PhysX\Foundation\include;../\OpenLibrary\PhysX\NxCharacter\include;../\OpenLibrary\PhysX\Physics\include;../\OpenLibrary\PhysX\PhysXLoader\include;../\OpenLibrary\Tinyxml;../\OpenLibrary\FreeType2\freetype-2.3.7\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Lib\x86;../\OpenLibrary\PhysX\lib\win32;../\OpenLibrary\FreeType2\freetype-2.3.8\objs;../\OpenLibrary\Tinyxml\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Include;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Include;C:\FeatherX\OpenLibrary\PhysXEX\Include\foundation;C:\FeatherX\OpenLibrary\PhysXEX\Include;C:\FeatherX\OpenLibrary\Boost\include;C:\FeatherX\OpenLibrary\PhysX\Cooking\include;C:\FeatherX\OpenLibrary\PhysX\Foundation\include;C:\FeatherX\OpenLibrary\PhysX\NxCharacter\include;C:\FeatherX\OpenLibrary\PhysX\Physics\include;C:\FeatherX\OpenLibrary\PhysX\PhysXLoader\include;C:\FeatherX\OpenLibrary\CUDA\v4.2\include;C:\FeatherX\OpenLibrary\OpenCV2.4.1\build\include;C:\FeatherX\OpenLibrary\Tinyxml;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib\Win32;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Lib\x86;C:\FeatherX\OpenLibrary\PhysX\lib\win32;C:\FeatherX\OpenLibrary\CUDA\v4.2\lib\Win32;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Lib\x86;C:\FeatherX\OpenLibrary\OpenCV2.4.1\build\x86\vc10\lib;C:\FeatherX\OpenLibrary\FreeType2\freetype-2.3.8\objs;C:\FeatherX\OpenLibrary\Tinyxml\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../\FeatherXEngine;../\FeatherXWindow;../\FeatherXBase;../\FeatherXEngineCommon;../\FeatherXPhysX;../\clock;../\FeatherXClient;../\FeatherXZlib;../\FeatherXFile;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PrecompiledHeaderFile>FeatherXWindowPrecompile.h</PrecompiledHeaderFile>
+      <AdditionalOptions>-Zm120 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>dxerr9.lib;d3dx9.lib;d3d9.lib;d3dxof.lib;dxguid.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comctl32.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;dinput8.lib;Imm32.lib;freetype238MT.lib;TinyxmlD_2010.lib;FeatherXEngine.lib;Version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\FeatherX\FeatherXEngine;C:\FeatherX\FeatherXWindow;C:\FeatherX\FeatherXBase;C:\FeatherX\FeatherXEngineCommon;C:\FeatherX\FeatherXPhysX;C:\FeatherX\clock;C:\FeatherX\FeatherXClient;C:\FeatherX\FeatherXZlib;C:\FeatherX\FeatherXFile;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>FeatherXWindowPrecompile.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>dxerr9.lib;d3dx9.lib;d3d9.lib;d3dxof.lib;dxguid.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comctl32.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;dinput8.lib;opencv_calib3d241.lib;opencv_contrib241.lib;opencv_core241.lib;opencv_features2d241.lib;opencv_flann241.lib;opencv_haartraining_engine.lib;opencv_highgui241.lib;opencv_imgproc241.lib;opencv_legacy241.lib;opencv_ml241.lib;opencv_objdetect241.lib;opencv_nonfree241.lib;Imm32.lib;freetype238MT.lib;TinyxmlD_2010.lib;FeatherXEngine.lib;Version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="FeatherXWindow.cpp" />
+    <ClCompile Include="FeatherXWindowPrecompile.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">FeatherXWindowPrecompile.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GameMain\GameMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FeatherXWindowPrecompile.h" />
+    <ClInclude Include="GameMain\GameMain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\clock\clock.vcxproj">
+      <Project>{ac5bd758-2020-4341-8942-468661e587f6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\FeatherXBase\FeatherXBase.vcxproj">
+      <Project>{d83c6481-4e57-4156-97d0-51171945bd5f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\FeatherXClient\FeatherXClient.vcxproj">
+      <Project>{fe94c767-c65b-4044-9ca8-6170d4e552c3}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\FeatherXEngineCommon\FeatherXEngineCommon.vcxproj">
+      <Project>{95e68d5d-6684-463b-a001-67c014d1c0dd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\FeatherXEngine\FeatherXEngine.vcxproj">
+      <Project>{35e232f3-6327-4138-8955-866aaf0e437e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\FeatherXFile\FeatherXFile.vcxproj">
+      <Project>{b5a12a66-b459-457b-ac22-09891fb6db5f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\FeatherXPhysX\FeatherXPhysX.vcxproj">
+      <Project>{9e62c311-734b-49cf-92d0-ac8466be68c8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\FeatherXZlib\FeatherXZlib.vcxproj">
+      <Project>{9e049cdd-93d2-4af6-935e-f8d4a5b3a8a7}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

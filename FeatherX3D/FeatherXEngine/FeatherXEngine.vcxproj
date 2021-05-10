@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{35E232F3-6327-4138-8955-866AAF0E437E}</ProjectGuid>
+    <RootNamespace>FeatherXEngine</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Output/Object/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../Output/Object/$(ProjectName)/$(Configuration)\</IntDir>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Include;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Include;../\OpenLibrary\Boost\include;../\OpenLibrary\PhysX\Cooking\include;../\OpenLibrary\PhysX\Foundation\include;../\OpenLibrary\PhysX\NxCharacter\include;../\OpenLibrary\PhysX\Physics\include;../\OpenLibrary\PhysX\PhysXLoader\include;../\OpenLibrary\Tinyxml;../\OpenLibrary\FreeType2\freetype-2.3.7\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Lib\x86;../\OpenLibrary\PhysX\lib\win32;../\OpenLibrary\FreeType2\freetype-2.3.8\objs;../\OpenLibrary\Tinyxml\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Include;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Include;C:\FeatherX\OpenLibrary\PhysXEX\Include\foundation;C:\FeatherX\OpenLibrary\PhysXEX\Include;C:\FeatherX\OpenLibrary\Boost\include;C:\FeatherX\OpenLibrary\PhysX\Cooking\include;C:\FeatherX\OpenLibrary\PhysX\Foundation\include;C:\FeatherX\OpenLibrary\PhysX\NxCharacter\include;C:\FeatherX\OpenLibrary\PhysX\Physics\include;C:\FeatherX\OpenLibrary\PhysX\PhysXLoader\include;C:\FeatherX\OpenLibrary\CUDA\v4.2\include;C:\FeatherX\OpenLibrary\OpenCV2.4.1\build\include;C:\FeatherX\OpenLibrary\Tinyxml;C:\FeatherX\OpenLibrary\FreeType2\freetype-2.3.7\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib\Win32;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Lib\x86;C:\FeatherX\OpenLibrary\PhysX\lib\win32;C:\FeatherX\OpenLibrary\CUDA\v4.2\lib\Win32;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Lib\x86;C:\FeatherX\OpenLibrary\OpenCV2.4.1\build\x86\vc10\lib;C:\FeatherX\OpenLibrary\FreeType2\freetype-2.3.8\objs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../\FeatherXEngine;../\FeatherXWindow;../\FeatherXBase;../\FeatherXEngineCommon;../\FeatherXPhysX;../\clock;../\FeatherXClient;../\FeatherXZlib;../\FeatherXFile;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>FeatherXEnginePrecompile.h</PrecompiledHeaderFile>
+      <AdditionalOptions>-Zm120 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Lib>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\FeatherX\FeatherXEngine;C:\FeatherX\FeatherXWindow;C:\FeatherX\FeatherXBase;C:\FeatherX\FeatherXEngineCommon;C:\FeatherX\FeatherXPhysX;C:\FeatherX\clock;C:\FeatherX\FeatherXClient;C:\FeatherX\FeatherXZlib;C:\FeatherX\FeatherXFile;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>FeatherXEnginePrecompile.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="FeatherXEffect\F3dCParticleTemplate.cpp" />
+    <ClCompile Include="FeatherXEffect\F3dCParticle_Core.cpp" />
+    <ClCompile Include="FeatherXEffect\F3dCTail\F3dCTail.cpp" />
+    <ClCompile Include="FeatherXEffect\F3dCTail\F3dCTailManager.cpp" />
+    <ClCompile Include="FeatherXEnginePrecompile.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FeatherXInput\CKeyboard.cpp" />
+    <ClCompile Include="FeatherXInput\CMouse.cpp" />
+    <ClCompile Include="FeatherXModel\F3dCModel.cpp" />
+    <ClCompile Include="FeatherXModel\F3dCPhysics.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZBone.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZCamera.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZCParser.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZFFSkinnedMesh.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZMesh.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZNode.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZNodeMgr.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZRigidMesh.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZSkinnedMesh.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZSWSkinnedMesh.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZTrack.cpp" />
+    <ClCompile Include="FeatherXModel\xml\ZXML.cpp" />
+    <ClCompile Include="FeatherXRender\Debug\DebugRenderer.cpp" />
+    <ClCompile Include="FeatherXRender\F3dCRenderUISprite.cpp" />
+    <ClCompile Include="FeatherXShaderManager\FeatherXShader.cpp" />
+    <ClCompile Include="FeatherXShaderManager\FeatherXShaderManager.cpp" />
+    <ClCompile Include="FeatherXRender\FeatherXRender.cpp" />
+    <ClCompile Include="FeatherXCamera\FeatherXCamera.cpp" />
+    <ClCompile Include="FeatherXLight\FeatherXLight.cpp" />
+    <ClCompile Include="FeatherXInput\FeatherXInput.cpp" />
+    <ClCompile Include="FeatherXEffect\F3dCFxManager.cpp" />
+    <ClCompile Include="FeatherXEffect\F3dCParticle.cpp" />
+    <ClCompile Include="FeatherXEngineManager\FeatherXEngineManager.cpp" />
+    <ClCompile Include="FeatherXModel\FeatherXModelManager.cpp" />
+    <ClCompile Include="FeatherXPostEffect\FeatherXPostEffect.cpp" />
+    <ClCompile Include="FeatherXOutputWindow\FeatherXOutputWindow.cpp" />
+    <ClCompile Include="FeatherXTexture\F3dCTextTextureManager.cpp" />
+    <ClCompile Include="FeatherXTexture\F3dCTexture.cpp" />
+    <ClCompile Include="FeatherXTexture\F3dCTextureManager.cpp" />
+    <ClCompile Include="FeatherXUI\Control\CImm.cpp" />
+    <ClCompile Include="FeatherXUI\Control\CInput.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlAniStatic.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlButton.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlCombo.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlCoolTime.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlEdit.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlGauge.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlListBox.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlNumber.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlScroll.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlSlider.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlStatic.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlTab.cpp" />
+    <ClCompile Include="FeatherXUI\Control\F3dZControlToolTip.cpp" />
+    <ClCompile Include="FeatherXUI\F3dCRenderTargetUISprite.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZControl.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZDragAndDrop.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZEditableControl.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZEditableWnd.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZEditableWndManager.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZUIDef.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZUIFactory.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZUIFreeType.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZUIParser.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZUISpriteManager.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZUIText.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZWnd.cpp" />
+    <ClCompile Include="FeatherXUI\F3dZWndManager.cpp" />
+    <ClCompile Include="FeatherXUtility\d3dutil.cpp" />
+    <ClCompile Include="FeatherXUtility\dxutil.cpp" />
+    <ClCompile Include="FeatherXWater\F3dCWater.cpp" />
+    <ClCompile Include="FeatherXWater\F3dCWaterManager.cpp" />
+    <ClCompile Include="FeatherXWorld\F3dCWorld.cpp" />
+    <ClCompile Include="FeatherXXml\FeatherXXml.cpp" />
+    <ClCompile Include="FeatherXXml\FeatherXXmlParser.cpp" />
+    <ClCompile Include="FeatherXStream\FeatherXStream.cpp" />
+    <ClCompile Include="FeatherXTexture\FeatherXTexture.cpp" />
+    <ClCompile Include="FeatherXTexture\FeatherXTextureManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FeatherXCamera\FeatherXCamera.h" />
+    <ClInclude Include="FeatherXEffect\F3dCFxManager.h" />
+    <ClInclude Include="FeatherXEffect\F3dCParticle.h" />
+    <ClInclude Include="FeatherXEffect\F3dCParticleDef.h" />
+    <ClInclude Include="FeatherXEffect\F3dCParticleTemplate.h" />
+    <ClInclude Include="FeatherXEffect\F3dCTail\F3dCTail.h" />
+    <ClInclude Include="FeatherXEffect\F3dCTail\F3dCTailManager.h" />
+    <ClInclude Include="FeatherXEngineDef.h" />
+    <ClInclude Include="FeatherXEnginePrecompile.h" />
+    <ClInclude Include="FeatherXEngineManager\FeatherXEngineManager.h" />
+    <ClInclude Include="FeatherXInput\CKeyboard.h" />
+    <ClInclude Include="FeatherXInput\CMouse.h" />
+    <ClInclude Include="FeatherXInput\FeatherXInput.h" />
+    <ClInclude Include="FeatherXLight\FeatherXLight.h" />
+    <ClInclude Include="FeatherXModel\F3dCModel.h" />
+    <ClInclude Include="FeatherXModel\F3dCPhysics.h" />
+    <ClInclude Include="FeatherXModel\FeatherXModelManager.h" />
+    <ClInclude Include="FeatherXModel\xml\ZBone.h" />
+    <ClInclude Include="FeatherXModel\xml\ZCamera.h" />
+    <ClInclude Include="FeatherXModel\xml\ZCMesh.h" />
+    <ClInclude Include="FeatherXModel\xml\zcparseddata.h" />
+    <ClInclude Include="FeatherXModel\xml\ZCParser.h" />
+    <ClInclude Include="FeatherXModel\xml\ZDefine.h" />
+    <ClInclude Include="FeatherXModel\xml\ZFFSkinnedMesh.h" />
+    <ClInclude Include="FeatherXModel\xml\ZMesh.h" />
+    <ClInclude Include="FeatherXModel\xml\ZNode.h" />
+    <ClInclude Include="FeatherXModel\xml\ZNodeMgr.h" />
+    <ClInclude Include="FeatherXModel\xml\ZRigidMesh.h" />
+    <ClInclude Include="FeatherXModel\xml\ZSkinnedMesh.h" />
+    <ClInclude Include="FeatherXModel\xml\ZSWSkinnedMesh.h" />
+    <ClInclude Include="FeatherXModel\xml\ZTrack.h" />
+    <ClInclude Include="FeatherXModel\xml\ZXML.h" />
+    <ClInclude Include="FeatherXOutputWindow\FeatherXOutputWindow.h" />
+    <ClInclude Include="FeatherXPostEffect\FeatherXPostEffect.h" />
+    <ClInclude Include="FeatherXRender\Debug\DebugRenderer.h" />
+    <ClInclude Include="FeatherXRender\F3dCRenderUISprite.h" />
+    <ClInclude Include="FeatherXRender\FeatherXRender.h" />
+    <ClInclude Include="FeatherXShaderManager\FeatherXShader.h" />
+    <ClInclude Include="FeatherXShaderManager\FeatherXShaderManager.h" />
+    <ClInclude Include="FeatherXStream\FeatherXStream.h" />
+    <ClInclude Include="FeatherXTexture\F3dCTextTextureManager.h" />
+    <ClInclude Include="FeatherXTexture\F3dCTexture.h" />
+    <ClInclude Include="FeatherXTexture\F3dCTextureManager.h" />
+    <ClInclude Include="FeatherXTexture\FeatherXTexture.h" />
+    <ClInclude Include="FeatherXTexture\FeatherXTextureManager.h" />
+    <ClInclude Include="FeatherXUI\Control\CImm.h" />
+    <ClInclude Include="FeatherXUI\Control\CInput.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlAniStatic.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlButton.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlCombo.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlCoolTime.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlEdit.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlGauge.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlListBox.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlNumber.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlScroll.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlSlider.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlStatic.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlTab.h" />
+    <ClInclude Include="FeatherXUI\Control\F3dZControlToolTip.h" />
+    <ClInclude Include="FeatherXUI\F3dCRenderTargetUISprite.h" />
+    <ClInclude Include="FeatherXUI\F3dZControl.h" />
+    <ClInclude Include="FeatherXUI\F3dZDragAndDrop.h" />
+    <ClInclude Include="FeatherXUI\F3dZEditableControl.h" />
+    <ClInclude Include="FeatherXUI\F3dZEditableWnd.h" />
+    <ClInclude Include="FeatherXUI\F3dZEditableWndManager.h" />
+    <ClInclude Include="FeatherXUI\F3dZUIDef.h" />
+    <ClInclude Include="FeatherXUI\F3dZUIFactory.h" />
+    <ClInclude Include="FeatherXUI\F3dZUIFreeType.h" />
+    <ClInclude Include="FeatherXUI\F3dZUIParser.h" />
+    <ClInclude Include="FeatherXUI\F3dZUISpriteManager.h" />
+    <ClInclude Include="FeatherXUI\F3dZUIText.h" />
+    <ClInclude Include="FeatherXUI\F3dZWnd.h" />
+    <ClInclude Include="FeatherXUI\F3dZWndManager.h" />
+    <ClInclude Include="FeatherXUtility\d3dutil.h" />
+    <ClInclude Include="FeatherXUtility\dxutil.h" />
+    <ClInclude Include="FeatherXWater\F3dCWater.h" />
+    <ClInclude Include="FeatherXWater\F3dCWaterManager.h" />
+    <ClInclude Include="FeatherXWorld\F3dCWorld.h" />
+    <ClInclude Include="FeatherXWorld\F3dCWorldDef.h" />
+    <ClInclude Include="FeatherXXml\FeatherXXml.h" />
+    <ClInclude Include="FeatherXXml\FeatherXXmlParser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\BIN\fx\cook.fx" />
+    <None Include="..\BIN\fx\cross.fx" />
+    <None Include="..\BIN\fx\EffectParticleSystem.fx" />
+    <None Include="..\BIN\fx\phong.fx" />
+    <None Include="..\BIN\fx\skybox.fx" />
+    <None Include="..\BIN\fx\water.fx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

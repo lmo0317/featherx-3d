@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="euc-kr"?>
+	<Body>
+		<Info>
+			<Mesh>meshs\\effect_box_01.xml</Mesh>
+
+			<Effect>
+				<File> Effect\\light.xml </File>
+				<Node> dummy_02 </Node>
+				<Offset> [0.0,0.0,0.1] </Offset>
+			</Effect>
+		</Info>
+	</Body>

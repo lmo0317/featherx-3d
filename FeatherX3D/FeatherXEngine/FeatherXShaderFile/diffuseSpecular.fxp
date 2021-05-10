@@ -1,0 +1,29 @@
+texture ColorMap;
+sampler ColorMapSampler = sampler_state{};
+
+texture BumpMap;
+sampler BumpMapSampler = sampler_state{};
+
+
+// -------------------------------------------------------------
+// Pixel Shader (input channels):output channel
+// -------------------------------------------------------------
+float4 PS(float2 Tex: TEXCOORD0, float3 View : TEXCOORD1, float3 Light: TEXCOORD2) : COLOR
+{
+    float4 color = tex2D(ColorMapSampler, Tex);	// fetch color map
+    float3 bumpNormal = 2 * (tex2D(BumpMapSampler, Tex) - 0.5); // bump map
+ 	
+    float3 LightDir = normalize(Light);	// L
+    float3 ViewDir = normalize(View);	// V
+        
+    float4 diff = saturate(dot(bumpNormal, LightDir)); // diffuse comp.
+    
+    float shadow = saturate(4 * diff); // compute self-shadowing term
+    
+    float3 Reflect = normalize(2 * diff * bumpNormal - LightDir);  // R
+ 	
+    // gloss map in color.w restricts spec reflection
+    float4 spec = min(pow(saturate(dot(Reflect, ViewDir)), 25), color.w);
+
+    return 0.2 * color + shadow * (color * diff + spec);	
+}

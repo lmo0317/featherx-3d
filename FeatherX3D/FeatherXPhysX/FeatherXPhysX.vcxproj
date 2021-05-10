@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_CLR|Win32">
+      <Configuration>Debug_CLR</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Package|Win32">
+      <Configuration>Debug_Package</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Windy|Win32">
+      <Configuration>Debug_Windy</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_CLR|Win32">
+      <Configuration>Release_CLR</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Package|Win32">
+      <Configuration>Release_Package</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Windy|Win32">
+      <Configuration>Release_Windy</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9E62C311-734B-49CF-92D0-AC8466BE68C8}</ProjectGuid>
+    <RootNamespace>MagiPhysX</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../Output/Lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../Output/Object/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../Output/Lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../Output/Object/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">../../../Output/Lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">../../../Output/Object/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">../../../Output/Lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">../../../Output/Object/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">../../../Output/Lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">../../../Output/Object/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">../../../Output/Lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">../../../Output/Object/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">../../../Output/Lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">../../../Output/Object/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">../../../Output/Lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">../../../Output/Object/$(ProjectName)/$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Include;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Include;C:\FeatherX\OpenLibrary\PhysXEX\Include\foundation;C:\FeatherX\OpenLibrary\PhysXEX\Include;C:\FeatherX\OpenLibrary\Boost\include;C:\FeatherX\OpenLibrary\PhysX\Cooking\include;C:\FeatherX\OpenLibrary\PhysX\Foundation\include;C:\FeatherX\OpenLibrary\PhysX\NxCharacter\include;C:\FeatherX\OpenLibrary\PhysX\Physics\include;C:\FeatherX\OpenLibrary\PhysX\PhysXLoader\include;C:\FeatherX\OpenLibrary\CUDA\v4.2\include;C:\FeatherX\OpenLibrary\OpenCV2.4.1\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib\Win32;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Lib\x86;C:\FeatherX\OpenLibrary\PhysX\lib\win32;C:\FeatherX\OpenLibrary\CUDA\v4.2\lib\Win32;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Lib\x86;C:\FeatherX\OpenLibrary\OpenCV2.4.1\build\x86\vc10\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Include;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Include;../\OpenLibrary\Boost\include;../\OpenLibrary\PhysX\Cooking\include;../\OpenLibrary\PhysX\Foundation\include;../\OpenLibrary\PhysX\NxCharacter\include;../\OpenLibrary\PhysX\Physics\include;../\OpenLibrary\PhysX\PhysXLoader\include;../\OpenLibrary\Tinyxml;../\OpenLibrary\FreeType2\freetype-2.3.7\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28March 2009%29\Lib\x86;../\OpenLibrary\PhysX\lib\win32;../\OpenLibrary\FreeType2\freetype-2.3.8\objs;../\OpenLibrary\Tinyxml\lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">$(ProjectName)_$(Configuration)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">$(ProjectName)_$(Configuration)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">$(ProjectName)_$(Configuration)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_$(Configuration)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">$(ProjectName)_$(Configuration)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">$(ProjectName)_$(Configuration)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">$(ProjectName)_$(Configuration)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)_$(Configuration)</TargetName>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\work\Project\Trunk\MagiLibrary\Include;C:\work\Project\Trunk\OpenLibrary\Boost\include;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\include;C:\work\Project\Trunk\OpenLibrary\LuaTinker;C:\work\Project\Trunk\OpenLibrary\MilesWin\include;C:\work\Project\Trunk\OpenLibrary\maxsdk9\include;C:/work/Project/Trunk/OpenLibrary/PhysX/Foundation/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Physics/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Cooking/include;C:/work/Project/Trunk/OpenLibrary/PhysX/PhysXLoader/include;C:/work/Project/Trunk/OpenLibrary/PhysX/NxCharacter/include;C:\work\Project\Trunk\OpenLibrary\Tinyxml;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\include;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.7\include;C:\work\project\trunk\OpenLibrary\BugTrap\Win32\BugTrap;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\include;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\work\Project\Trunk\MagiLibrary\lib;C:\work\Project\Trunk\OpenLibrary\MilesWin\lib;C:\work\Project\Trunk\OpenLibrary\maxsdk9\lib;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\lib;C:\work\Project\Trunk\OpenLibrary\Boost\lib\x86;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\lib\win32;C:\work\Project\Trunk\OpenLibrary\LuaTinker\lib\x86;C:\work\Project\Trunk\OpenLibrary\PhysX\lib\win32;C:\work\Project\Trunk\OpenLibrary\Tinyxml\lib\x86;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.8\objs;C:\work\project\trunk\OpenLibrary\BugTrap\lib\x86;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\lib\Win32;C:\Work\Project\Trunk\OpenLibrary\gtest-1.4.0\lib\win32;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Lib\x86</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\work\Project\Trunk\MagiLibrary\Include;C:\work\Project\Trunk\OpenLibrary\Boost\include;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\include;C:\work\Project\Trunk\OpenLibrary\LuaTinker;C:\work\Project\Trunk\OpenLibrary\MilesWin\include;C:\work\Project\Trunk\OpenLibrary\maxsdk9\include;C:/work/Project/Trunk/OpenLibrary/PhysX/Foundation/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Physics/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Cooking/include;C:/work/Project/Trunk/OpenLibrary/PhysX/PhysXLoader/include;C:/work/Project/Trunk/OpenLibrary/PhysX/NxCharacter/include;C:\work\Project\Trunk\OpenLibrary\Tinyxml;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\include;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.7\include;C:\work\project\trunk\OpenLibrary\BugTrap\Win32\BugTrap;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\include;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Include</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\work\Project\Trunk\MagiLibrary\Include;C:\work\Project\Trunk\OpenLibrary\Boost\include;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\include;C:\work\Project\Trunk\OpenLibrary\LuaTinker;C:\work\Project\Trunk\OpenLibrary\MilesWin\include;C:\work\Project\Trunk\OpenLibrary\maxsdk9\include;C:/work/Project/Trunk/OpenLibrary/PhysX/Foundation/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Physics/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Cooking/include;C:/work/Project/Trunk/OpenLibrary/PhysX/PhysXLoader/include;C:/work/Project/Trunk/OpenLibrary/PhysX/NxCharacter/include;C:\work\Project\Trunk\OpenLibrary\Tinyxml;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\include;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.7\include;C:\work\project\trunk\OpenLibrary\BugTrap\Win32\BugTrap;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\include;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Include;C:\work\Project\Trunk\OpenLibrary\Fmod\fmoddesignerapi\api\inc;C:\work\Project\Trunk\OpenLibrary\Fmod\api\inc</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\work\Project\Trunk\MagiLibrary\Include;C:\work\Project\Trunk\OpenLibrary\Boost\include;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\include;C:\work\Project\Trunk\OpenLibrary\LuaTinker;C:\work\Project\Trunk\OpenLibrary\MilesWin\include;C:\work\Project\Trunk\OpenLibrary\maxsdk9\include;C:/work/Project/Trunk/OpenLibrary/PhysX/Foundation/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Physics/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Cooking/include;C:/work/Project/Trunk/OpenLibrary/PhysX/PhysXLoader/include;C:/work/Project/Trunk/OpenLibrary/PhysX/NxCharacter/include;C:\work\Project\Trunk\OpenLibrary\Tinyxml;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\include;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.7\include;C:\work\project\trunk\OpenLibrary\BugTrap\Win32\BugTrap;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\include;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Include</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\work\Project\Trunk\MagiLibrary\Include;C:\work\Project\Trunk\OpenLibrary\Boost\include;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\include;C:\work\Project\Trunk\OpenLibrary\LuaTinker;C:\work\Project\Trunk\OpenLibrary\MilesWin\include;C:\work\Project\Trunk\OpenLibrary\maxsdk9\include;C:/work/Project/Trunk/OpenLibrary/PhysX/Foundation/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Physics/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Cooking/include;C:/work/Project/Trunk/OpenLibrary/PhysX/PhysXLoader/include;C:/work/Project/Trunk/OpenLibrary/PhysX/NxCharacter/include;C:\work\Project\Trunk\OpenLibrary\Tinyxml;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\include;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.7\include;C:\work\project\trunk\OpenLibrary\BugTrap\Win32\BugTrap;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\include;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Include</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\work\Project\Trunk\MagiLibrary\Include;C:\work\Project\Trunk\OpenLibrary\Boost\include;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\include;C:\work\Project\Trunk\OpenLibrary\LuaTinker;C:\work\Project\Trunk\OpenLibrary\MilesWin\include;C:\work\Project\Trunk\OpenLibrary\maxsdk9\include;C:/work/Project/Trunk/OpenLibrary/PhysX/Foundation/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Physics/include;C:/work/Project/Trunk/OpenLibrary/PhysX/Cooking/include;C:/work/Project/Trunk/OpenLibrary/PhysX/PhysXLoader/include;C:/work/Project/Trunk/OpenLibrary/PhysX/NxCharacter/include;C:\work\Project\Trunk\OpenLibrary\Tinyxml;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\include;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.7\include;C:\work\project\trunk\OpenLibrary\BugTrap\Win32\BugTrap;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\include;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\work\Project\Trunk\MagiLibrary\lib;C:\work\Project\Trunk\OpenLibrary\MilesWin\lib;C:\work\Project\Trunk\OpenLibrary\maxsdk9\lib;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\lib;C:\work\Project\Trunk\OpenLibrary\Boost\lib\x86;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\lib\win32;C:\work\Project\Trunk\OpenLibrary\LuaTinker\lib\x86;C:\work\Project\Trunk\OpenLibrary\PhysX\lib\win32;C:\work\Project\Trunk\OpenLibrary\Tinyxml\lib\x86;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.8\objs;C:\work\project\trunk\OpenLibrary\BugTrap\lib\x86;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\lib\Win32;C:\Work\Project\Trunk\OpenLibrary\gtest-1.4.0\lib\win32;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Lib\x86</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\work\Project\Trunk\MagiLibrary\lib;C:\work\Project\Trunk\OpenLibrary\MilesWin\lib;C:\work\Project\Trunk\OpenLibrary\maxsdk9\lib;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\lib;C:\work\Project\Trunk\OpenLibrary\Boost\lib\x86;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\lib\win32;C:\work\Project\Trunk\OpenLibrary\LuaTinker\lib\x86;C:\work\Project\Trunk\OpenLibrary\PhysX\lib\win32;C:\work\Project\Trunk\OpenLibrary\Tinyxml\lib\x86;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.8\objs;C:\work\project\trunk\OpenLibrary\BugTrap\lib\x86;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\lib\Win32;C:\Work\Project\Trunk\OpenLibrary\gtest-1.4.0\lib\win32;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Lib\x86</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\work\Project\Trunk\MagiLibrary\lib;C:\work\Project\Trunk\OpenLibrary\MilesWin\lib;C:\work\Project\Trunk\OpenLibrary\maxsdk9\lib;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\lib;C:\work\Project\Trunk\OpenLibrary\Boost\lib\x86;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\lib\win32;C:\work\Project\Trunk\OpenLibrary\LuaTinker\lib\x86;C:\work\Project\Trunk\OpenLibrary\PhysX\lib\win32;C:\work\Project\Trunk\OpenLibrary\Tinyxml\lib\x86;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.8\objs;C:\work\project\trunk\OpenLibrary\BugTrap\lib\x86;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\lib\Win32;C:\Work\Project\Trunk\OpenLibrary\gtest-1.4.0\lib\win32;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Lib\x86</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\work\Project\Trunk\MagiLibrary\lib;C:\work\Project\Trunk\OpenLibrary\MilesWin\lib;C:\work\Project\Trunk\OpenLibrary\maxsdk9\lib;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\lib;C:\work\Project\Trunk\OpenLibrary\Boost\lib\x86;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\lib\win32;C:\work\Project\Trunk\OpenLibrary\LuaTinker\lib\x86;C:\work\Project\Trunk\OpenLibrary\PhysX\lib\win32;C:\work\Project\Trunk\OpenLibrary\Tinyxml\lib\x86;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.8\objs;C:\work\project\trunk\OpenLibrary\BugTrap\lib\x86;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\lib\Win32;C:\Work\Project\Trunk\OpenLibrary\gtest-1.4.0\lib\win32;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Lib\x86</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">$(VCInstallDir)PlatformSDK\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\work\Project\Trunk\MagiLibrary\lib;C:\work\Project\Trunk\OpenLibrary\MilesWin\lib;C:\work\Project\Trunk\OpenLibrary\maxsdk9\lib;C:\work\Project\Trunk\OpenLibrary\DevIL1.67\lib;C:\work\Project\Trunk\OpenLibrary\Boost\lib\x86;C:\work\Project\Trunk\OpenLibrary\lua5_1_4\lua5.1\lib\win32;C:\work\Project\Trunk\OpenLibrary\LuaTinker\lib\x86;C:\work\Project\Trunk\OpenLibrary\PhysX\lib\win32;C:\work\Project\Trunk\OpenLibrary\Tinyxml\lib\x86;C:\work\Project\trunk\OpenLibrary\FreeType2\freetype-2.3.8\objs;C:\work\project\trunk\OpenLibrary\BugTrap\lib\x86;C:\work\Project\trunk\OpenLibrary\Nettention\ProudNet\lib\Win32;C:\Work\Project\Trunk\OpenLibrary\gtest-1.4.0\lib\win32;C:\work\Project\Trunk\OpenLibrary\DirectX_March2009\Lib\x86</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../\FeatherXEngine;../\FeatherXWindow;../\FeatherXBase;../\FeatherXEngineCommon;../\FeatherXPhysX;../\clock;../\FeatherXClient;../\FeatherXZlib;../\FeatherXFile;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>MagiPhysXDef.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)_$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\FeatherX\FeatherXEngine;C:\FeatherX\FeatherXWindow;C:\FeatherX\FeatherXBase;C:\FeatherX\FeatherXEngineCommon;C:\FeatherX\FeatherXPhysX;C:\FeatherX\clock;C:\FeatherX\FeatherXClient;C:\FeatherX\FeatherXZlib;C:\FeatherX\FeatherXFile;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>MagiPhysXDef.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)_$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..;../MagiBase;../Magi3D_Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_PACKED_FILE_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>MagiPhysXDef.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)_$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..;../MagiBase;../Magi3D_Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_PACKED_FILE_;_WINDY_AUTH_CHECK_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>MagiPhysXDef.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)_$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>.;..;../MagiBase;../Magi3D_Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_PACKED_FILE_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>MagiPhysXDef.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)_$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..;../MagiBase;../Magi3D_Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_PACKED_FILE_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>MagiPhysXDef.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)_$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..;../MagiBase;../Magi3D_Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;TOOL_CLR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>MagiPhysXDef.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)_$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..;../MagiBase;../Magi3D_Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;TOOL_CLR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>MagiPhysXDef.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)_$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="MagiPhysXDef.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Physics\Character\mpCharacterController.cpp" />
+    <ClCompile Include="Physics\mpActorDesc.cpp" />
+    <ClCompile Include="Physics\mpManager.cpp" />
+    <ClCompile Include="Physics\Joint\mpD6JointDesc.cpp" />
+    <ClCompile Include="Physics\Joint\mpFixedJointDesc.cpp" />
+    <ClCompile Include="Physics\Joint\mpJointDesc.cpp" />
+    <ClCompile Include="Physics\Joint\mpRevoluteJointDesc.cpp" />
+    <ClCompile Include="Physics\Joint\mpSphericalJointDesc.cpp" />
+    <ClCompile Include="Physics\Vehicle\NxVehicle.cpp" />
+    <ClCompile Include="Physics\Vehicle\NxWheel.cpp" />
+    <ClCompile Include="PhysX_Source\BoxController.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\CapsuleController.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\CCTDebugRenderer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\CharacterController.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\CharacterControllerCallbacks.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\CharacterControllerManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\Controller.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\SweptBox.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\SweptCapsule.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\SweptVolume.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_CLR|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Package|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Windy|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Stream\Stream.cpp" />
+    <ClCompile Include="UserAllocator.cpp" />
+    <ClCompile Include="Util\mpUtil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ErrorStream.h" />
+    <ClInclude Include="MagiPhysXDef.h" />
+    <ClInclude Include="Physics\Character\mpCharacterController.h" />
+    <ClInclude Include="Physics\mpActorDesc.h" />
+    <ClInclude Include="Physics\mpManager.h" />
+    <ClInclude Include="Physics\Joint\mpD6JointDesc.h" />
+    <ClInclude Include="Physics\Joint\mpFixedJointDesc.h" />
+    <ClInclude Include="Physics\Joint\mpJointDesc.h" />
+    <ClInclude Include="Physics\Joint\mpRevoluteJointDesc.h" />
+    <ClInclude Include="Physics\Joint\mpSphericalJointDesc.h" />
+    <ClInclude Include="Physics\Vehicle\NxLinearInterpolationValues.h" />
+    <ClInclude Include="Physics\Vehicle\NxVehicle.h" />
+    <ClInclude Include="Physics\Vehicle\NxVehicleDesc.h" />
+    <ClInclude Include="Physics\Vehicle\NxVehicleGearDesc.h" />
+    <ClInclude Include="Physics\Vehicle\NxVehicleGears.h" />
+    <ClInclude Include="Physics\Vehicle\NxVehicleMotor.h" />
+    <ClInclude Include="Physics\Vehicle\NxVehicleMotorDesc.h" />
+    <ClInclude Include="Physics\Vehicle\NxWheel.h" />
+    <ClInclude Include="Physics\Vehicle\NxWheelDesc.h" />
+    <ClInclude Include="Stream\Stream.h" />
+    <ClInclude Include="UserAllocator.h" />
+    <ClInclude Include="Util\mpUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

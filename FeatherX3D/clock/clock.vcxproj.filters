@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Time sources">
+      <UniqueIdentifier>{18cd731b-7c65-432f-bd3c-9d1bc73d520d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interface.h">
+      <Filter>Time sources</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSource.h">
+      <Filter>Time sources</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSourceCustom.h">
+      <Filter>Time sources</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSourceHRWin32.h">
+      <Filter>Time sources</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TickCounter.h" />
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TimeSourceCustom.cpp">
+      <Filter>Time sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSourceHRWin32.cpp">
+      <Filter>Time sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clock.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TickCounter.cpp" />
+    <ClCompile Include="Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.txt" />
+  </ItemGroup>
+</Project>

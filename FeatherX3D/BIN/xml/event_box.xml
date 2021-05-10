@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="euc-kr"?>
+	<Body>
+		<Info>
+			<EVENT_BOX>
+				<ID> 0 </ID>
+				<TYPE> EVENT_BOX_JUMP </TYPE>
+				<JUMP> 100 </JUMP>
+			</EVENT_BOX>
+
+			<EVENT_BOX>
+				<ID> 1 </ID>
+				<TYPE> EVENT_BOX_START </TYPE>
+			</EVENT_BOX>
+
+			<EVENT_BOX>
+				<ID> 2 </ID>
+				<TYPE> EVENT_BOX_END </TYPE>
+			</EVENT_BOX>
+
+		</Info>
+	</Body>

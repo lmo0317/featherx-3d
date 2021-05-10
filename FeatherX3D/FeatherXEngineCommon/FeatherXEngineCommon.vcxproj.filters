@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Precompile">
+      <UniqueIdentifier>{4a6c4d25-f75d-4503-8a02-521a4ea99247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry">
+      <UniqueIdentifier>{660174ed-1b99-4eb1-8c0f-39cf99e8c80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world">
+      <UniqueIdentifier>{ab75de9d-d789-4fef-ad3c-a78de991d642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Def">
+      <UniqueIdentifier>{53a60de4-3b1d-4c3b-8212-bdab27adccec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXDevice">
+      <UniqueIdentifier>{f93e100b-660a-49e8-bdac-c9e300376774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{61973e55-2292-4bb9-8fcc-6ca4da00b508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deviceinfo">
+      <UniqueIdentifier>{68483dca-19c7-4148-a4c2-578567d428d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FeatherXEngineCommonPrecompile.cpp">
+      <Filter>Precompile</Filter>
+    </ClCompile>
+    <ClCompile Include="util\fcoUtil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="world\fcoWorld.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXDevice\F3dCDisplay.cpp">
+      <Filter>FeatherXDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXDevice\F3dCDevice.cpp">
+      <Filter>FeatherXDevice</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FeatherXEngineCommonPrecompile.h">
+      <Filter>Precompile</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\fcoGeometry.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="util\fcoUtil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="world\fcoWorld.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXEngineCommonDef.h">
+      <Filter>Def</Filter>
+    </ClInclude>
+    <ClInclude Include="deviceinfo\fcoDeviceInfo.h">
+      <Filter>deviceinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXDevice\F3dCDisplay.h">
+      <Filter>FeatherXDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXDevice\F3dCDevice.h">
+      <Filter>FeatherXDevice</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

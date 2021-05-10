@@ -1,0 +1,11 @@
+texture ColorMap;
+sampler ColorMapSampler = sampler_state{};
+
+
+// -------------------------------------------------------------
+// Pixel Shader (input channels):output channel
+// -------------------------------------------------------------
+float4 PS(float2 Tex: TEXCOORD0) : COLOR
+{
+    return tex2D(ColorMapSampler, Tex);	// fetch color map
+}

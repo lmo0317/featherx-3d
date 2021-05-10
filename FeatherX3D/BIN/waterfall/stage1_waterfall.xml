@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+	<Stage>
+		<Object>
+			<File>models\\box.xml</File>
+			<Type>box</Type>
+			<Time>2</Time>
+ 			<Position>[0,25,0]</Position>
+			<Rotation>[0,0,0]</Rotation>
+		</Object>
+	</Stage>

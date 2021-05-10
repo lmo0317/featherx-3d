@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="euc-kr"?>
+	<Body>
+		<Info>
+			<Mesh>meshs\\player.xml</Mesh>
+			<Physic>
+				<ControlType> CONTROL_DYNAMIC </ControlType>
+                                <ShapeType> SHAPE_SPHERE </ShapeType>
+				<Extent>[0.0,1.0,0.0]</Extent>
+				<Radius>1</Radius>
+				<Height>1</Height>
+				<Density>0.1</Density>
+				<Node>Box01</Node>
+				<Offset>[0.0,0.0,0.0]</Offset>
+			</Physic>
+		</Info>
+	</Body>

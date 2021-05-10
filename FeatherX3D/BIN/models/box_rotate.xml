@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="euc-kr"?>
+	<Body>
+		<Info>
+			<Mesh>meshs\\box_rotate.xml</Mesh>
+			<Physic>
+				<ControlType> CONTROL_STATIC </ControlType>
+                                <ShapeType> SHAPE_BOX </ShapeType>
+				<Extent>[5.0,5.0,5.0]</Extent>
+				<Radius>1</Radius>
+				<Height>1</Height>
+				<Density>0.001</Density>
+				<Node>Box01</Node>
+				<Offset>[0.0,0.0,0.0]</Offset>
+			</Physic>
+		</Info>
+	</Body>

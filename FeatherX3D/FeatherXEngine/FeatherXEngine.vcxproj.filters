@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FeatherXShaderManager">
+      <UniqueIdentifier>{76546f43-72e5-4620-a95a-013e5b2322aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXRender">
+      <UniqueIdentifier>{a1007d64-3079-4278-a98e-edb9a4bf488d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXCamera">
+      <UniqueIdentifier>{0951c8be-f867-42f0-8fc6-82f5bed6de5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXLight">
+      <UniqueIdentifier>{48217bf0-7eab-491e-a8f4-92279fa6ca41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXInput">
+      <UniqueIdentifier>{e7195d45-bd2d-4c17-ae33-5a38832b8a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXEffect">
+      <UniqueIdentifier>{394a73f6-5782-421e-a049-e9d64b05e169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatehrXEngineManager">
+      <UniqueIdentifier>{78a78a73-a361-4f70-9f4f-553a6c1718b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXShaderFile">
+      <UniqueIdentifier>{c70cd043-68bc-40c0-8df7-b7b93ebf4d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXModel">
+      <UniqueIdentifier>{dc13cbf4-20eb-4e8c-ae06-232c871f98b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXModel\Manager">
+      <UniqueIdentifier>{b9fe5a67-b029-467f-ab82-c4029540ec89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXPostEffect">
+      <UniqueIdentifier>{dfb110e7-e7d8-4d0e-9f1b-4f26e32737bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXOutputWindow">
+      <UniqueIdentifier>{c1d60e3f-55e5-4cb1-9d73-aceb59459ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXXml">
+      <UniqueIdentifier>{d953b8b5-69fa-43b7-bfb1-eda80b185b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXStream">
+      <UniqueIdentifier>{746e8040-4d0e-4509-9643-dd4d512701c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXTexture">
+      <UniqueIdentifier>{92c93581-e5f4-4a3a-a5c7-2bccc5b6e24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXModel\xml">
+      <UniqueIdentifier>{e5aed016-8900-4ad6-97a4-bff43956e8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXModel\FModel">
+      <UniqueIdentifier>{da82accc-673e-4370-b17f-4abf14b1b298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile">
+      <UniqueIdentifier>{b11c656d-8e09-457b-aba1-7aa48896d9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Def">
+      <UniqueIdentifier>{f53ae2f6-e920-4065-bae9-06888ff7ba19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXWorld">
+      <UniqueIdentifier>{d414bf26-14f1-4780-aabe-a3dc9caa1677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXUtility">
+      <UniqueIdentifier>{3229b637-82ea-4114-bc30-625514454c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXWater">
+      <UniqueIdentifier>{6b5e63fb-f501-435a-bb32-a2cbe7461ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXEffect\F3dCTail">
+      <UniqueIdentifier>{7ec02890-61e3-44c7-aa59-e5b771dd1527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXUI">
+      <UniqueIdentifier>{8dd8d188-cb04-4d24-a534-6b892f238ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeatherXUI\Control">
+      <UniqueIdentifier>{5af8ed6b-7cf2-4a30-b60a-e36164cbfe39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FeatherXShaderManager\FeatherXShader.cpp">
+      <Filter>FeatherXShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXShaderManager\FeatherXShaderManager.cpp">
+      <Filter>FeatherXShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXRender\FeatherXRender.cpp">
+      <Filter>FeatherXRender</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXCamera\FeatherXCamera.cpp">
+      <Filter>FeatherXCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXLight\FeatherXLight.cpp">
+      <Filter>FeatherXLight</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXInput\FeatherXInput.cpp">
+      <Filter>FeatherXInput</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXEngineManager\FeatherXEngineManager.cpp">
+      <Filter>FeatehrXEngineManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\FeatherXModelManager.cpp">
+      <Filter>FeatherXModel\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXPostEffect\FeatherXPostEffect.cpp">
+      <Filter>FeatherXPostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXOutputWindow\FeatherXOutputWindow.cpp">
+      <Filter>FeatherXOutputWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXXml\FeatherXXml.cpp">
+      <Filter>FeatherXXml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXXml\FeatherXXmlParser.cpp">
+      <Filter>FeatherXXml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXStream\FeatherXStream.cpp">
+      <Filter>FeatherXStream</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXTexture\FeatherXTexture.cpp">
+      <Filter>FeatherXTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXTexture\FeatherXTextureManager.cpp">
+      <Filter>FeatherXTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZBone.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZCamera.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZCParser.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZFFSkinnedMesh.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZMesh.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZNode.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZNodeMgr.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZRigidMesh.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZSkinnedMesh.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZSWSkinnedMesh.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZTrack.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\xml\ZXML.cpp">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXInput\CMouse.cpp">
+      <Filter>FeatherXInput</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXInput\CKeyboard.cpp">
+      <Filter>FeatherXInput</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXEnginePrecompile.cpp">
+      <Filter>Precompile</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXEffect\F3dCFxManager.cpp">
+      <Filter>FeatherXEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXEffect\F3dCParticle.cpp">
+      <Filter>FeatherXEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXEffect\F3dCParticleTemplate.cpp">
+      <Filter>FeatherXEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXEffect\F3dCParticle_Core.cpp">
+      <Filter>FeatherXEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXWorld\F3dCWorld.cpp">
+      <Filter>FeatherXWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\F3dCModel.cpp">
+      <Filter>FeatherXModel\FModel</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUtility\d3dutil.cpp">
+      <Filter>FeatherXUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUtility\dxutil.cpp">
+      <Filter>FeatherXUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXRender\Debug\DebugRenderer.cpp">
+      <Filter>FeatherXRender</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXModel\F3dCPhysics.cpp">
+      <Filter>FeatherXModel\FModel</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXWater\F3dCWater.cpp">
+      <Filter>FeatherXWater</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXWater\F3dCWaterManager.cpp">
+      <Filter>FeatherXWater</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXEffect\F3dCTail\F3dCTail.cpp">
+      <Filter>FeatherXEffect\F3dCTail</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXEffect\F3dCTail\F3dCTailManager.cpp">
+      <Filter>FeatherXEffect\F3dCTail</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXTexture\F3dCTextTextureManager.cpp">
+      <Filter>FeatherXTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXTexture\F3dCTexture.cpp">
+      <Filter>FeatherXTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXTexture\F3dCTextureManager.cpp">
+      <Filter>FeatherXTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\CInput.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlAniStatic.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlButton.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlCombo.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlCoolTime.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlEdit.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlGauge.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlListBox.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlNumber.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlScroll.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlSlider.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlStatic.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlTab.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\F3dZControlToolTip.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\Control\CImm.cpp">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZEditableWndManager.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZUIDef.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZUIFactory.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZUIFreeType.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZUIParser.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZUISpriteManager.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZUIText.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZWnd.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZWndManager.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dCRenderTargetUISprite.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZControl.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZDragAndDrop.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZEditableControl.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXUI\F3dZEditableWnd.cpp">
+      <Filter>FeatherXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherXRender\F3dCRenderUISprite.cpp">
+      <Filter>FeatherXRender</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FeatherXEngineManager\FeatherXEngineManager.h">
+      <Filter>FeatehrXEngineManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXCamera\FeatherXCamera.h">
+      <Filter>FeatherXCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXInput\FeatherXInput.h">
+      <Filter>FeatherXInput</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXLight\FeatherXLight.h">
+      <Filter>FeatherXLight</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\FeatherXModelManager.h">
+      <Filter>FeatherXModel\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXOutputWindow\FeatherXOutputWindow.h">
+      <Filter>FeatherXOutputWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXPostEffect\FeatherXPostEffect.h">
+      <Filter>FeatherXPostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXRender\FeatherXRender.h">
+      <Filter>FeatherXRender</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXShaderManager\FeatherXShader.h">
+      <Filter>FeatherXShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXShaderManager\FeatherXShaderManager.h">
+      <Filter>FeatherXShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXStream\FeatherXStream.h">
+      <Filter>FeatherXStream</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXTexture\FeatherXTextureManager.h">
+      <Filter>FeatherXTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXTexture\FeatherXTexture.h">
+      <Filter>FeatherXTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXXml\FeatherXXmlParser.h">
+      <Filter>FeatherXXml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXXml\FeatherXXml.h">
+      <Filter>FeatherXXml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZBone.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZCamera.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZCMesh.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\zcparseddata.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZCParser.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZDefine.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZFFSkinnedMesh.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZMesh.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZNode.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZNodeMgr.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZRigidMesh.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZSkinnedMesh.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZSWSkinnedMesh.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZTrack.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\xml\ZXML.h">
+      <Filter>FeatherXModel\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXInput\CKeyboard.h">
+      <Filter>FeatherXInput</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXInput\CMouse.h">
+      <Filter>FeatherXInput</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXEnginePrecompile.h">
+      <Filter>Precompile</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXEngineDef.h">
+      <Filter>Def</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXEffect\F3dCFxManager.h">
+      <Filter>FeatherXEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXEffect\F3dCParticle.h">
+      <Filter>FeatherXEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXEffect\F3dCParticleDef.h">
+      <Filter>FeatherXEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXEffect\F3dCParticleTemplate.h">
+      <Filter>FeatherXEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXWorld\F3dCWorld.h">
+      <Filter>FeatherXWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXWorld\F3dCWorldDef.h">
+      <Filter>FeatherXWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\F3dCModel.h">
+      <Filter>FeatherXModel\FModel</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUtility\dxutil.h">
+      <Filter>FeatherXUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUtility\d3dutil.h">
+      <Filter>FeatherXUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXRender\Debug\DebugRenderer.h">
+      <Filter>FeatherXRender</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXModel\F3dCPhysics.h">
+      <Filter>FeatherXModel\FModel</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXWater\F3dCWater.h">
+      <Filter>FeatherXWater</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXWater\F3dCWaterManager.h">
+      <Filter>FeatherXWater</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXEffect\F3dCTail\F3dCTail.h">
+      <Filter>FeatherXEffect\F3dCTail</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXEffect\F3dCTail\F3dCTailManager.h">
+      <Filter>FeatherXEffect\F3dCTail</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXTexture\F3dCTextureManager.h">
+      <Filter>FeatherXTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXTexture\F3dCTextTextureManager.h">
+      <Filter>FeatherXTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXTexture\F3dCTexture.h">
+      <Filter>FeatherXTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\CImm.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\CInput.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlAniStatic.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlButton.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlCombo.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlCoolTime.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlEdit.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlGauge.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlListBox.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlNumber.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlScroll.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlSlider.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlStatic.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlTab.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\Control\F3dZControlToolTip.h">
+      <Filter>FeatherXUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZEditableWnd.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZEditableWndManager.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZUIDef.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZUIFactory.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZUIFreeType.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZUIParser.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZUISpriteManager.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZUIText.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZWnd.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZWndManager.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dCRenderTargetUISprite.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZControl.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZDragAndDrop.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXUI\F3dZEditableControl.h">
+      <Filter>FeatherXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherXRender\F3dCRenderUISprite.h">
+      <Filter>FeatherXRender</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\BIN\fx\cook.fx">
+      <Filter>FeatherXShaderFile</Filter>
+    </None>
+    <None Include="..\BIN\fx\cross.fx">
+      <Filter>FeatherXShaderFile</Filter>
+    </None>
+    <None Include="..\BIN\fx\EffectParticleSystem.fx">
+      <Filter>FeatherXShaderFile</Filter>
+    </None>
+    <None Include="..\BIN\fx\skybox.fx">
+      <Filter>FeatherXShaderFile</Filter>
+    </None>
+    <None Include="..\BIN\fx\water.fx">
+      <Filter>FeatherXShaderFile</Filter>
+    </None>
+    <None Include="..\BIN\fx\phong.fx">
+      <Filter>FeatherXShaderFile</Filter>
+    </None>
+  </ItemGroup>
+</Project>

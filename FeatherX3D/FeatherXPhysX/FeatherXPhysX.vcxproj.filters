@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{01292804-1eda-4cd4-89ed-61facdd7cef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Joint">
+      <UniqueIdentifier>{7b1d8fbe-0e34-47e1-852f-d8cbf5c61824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stream">
+      <UniqueIdentifier>{db47d8d9-9e55-4277-a8a1-e75e6f2437c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{ff5b7f38-67c4-4203-9a50-0bd9450a90b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Character">
+      <UniqueIdentifier>{94dbcafb-918b-422c-acb3-c9be631fe814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PhysX_Source">
+      <UniqueIdentifier>{3505766b-87de-4830-9696-e16e5d1d4f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Vehicle">
+      <UniqueIdentifier>{2e8e5e6a-81ed-4157-83a3-396ee54bdc27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Physics\mpActorDesc.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\mpManager.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Joint\mpD6JointDesc.cpp">
+      <Filter>Physics\Joint</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Joint\mpFixedJointDesc.cpp">
+      <Filter>Physics\Joint</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Joint\mpJointDesc.cpp">
+      <Filter>Physics\Joint</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Joint\mpRevoluteJointDesc.cpp">
+      <Filter>Physics\Joint</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Joint\mpSphericalJointDesc.cpp">
+      <Filter>Physics\Joint</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream\Stream.cpp">
+      <Filter>Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\mpUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Character\mpCharacterController.cpp">
+      <Filter>Physics\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="MagiPhysXDef.cpp" />
+    <ClCompile Include="PhysX_Source\BoxController.cpp">
+      <Filter>PhysX_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\CapsuleController.cpp">
+      <Filter>PhysX_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\CCTDebugRenderer.cpp">
+      <Filter>PhysX_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\CharacterController.cpp">
+      <Filter>PhysX_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\CharacterControllerCallbacks.cpp">
+      <Filter>PhysX_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\CharacterControllerManager.cpp">
+      <Filter>PhysX_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\Controller.cpp">
+      <Filter>PhysX_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\SweptBox.cpp">
+      <Filter>PhysX_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\SweptCapsule.cpp">
+      <Filter>PhysX_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX_Source\SweptVolume.cpp">
+      <Filter>PhysX_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UserAllocator.cpp" />
+    <ClCompile Include="Physics\Vehicle\NxVehicle.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Vehicle\NxWheel.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Physics\mpActorDesc.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\mpManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Joint\mpD6JointDesc.h">
+      <Filter>Physics\Joint</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Joint\mpFixedJointDesc.h">
+      <Filter>Physics\Joint</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Joint\mpJointDesc.h">
+      <Filter>Physics\Joint</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Joint\mpRevoluteJointDesc.h">
+      <Filter>Physics\Joint</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Joint\mpSphericalJointDesc.h">
+      <Filter>Physics\Joint</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream\Stream.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\mpUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Character\mpCharacterController.h">
+      <Filter>Physics\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="MagiPhysXDef.h" />
+    <ClInclude Include="UserAllocator.h" />
+    <ClInclude Include="ErrorStream.h" />
+    <ClInclude Include="Physics\Vehicle\NxVehicle.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Vehicle\NxVehicleDesc.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Vehicle\NxVehicleGearDesc.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Vehicle\NxVehicleGears.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Vehicle\NxVehicleMotor.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Vehicle\NxVehicleMotorDesc.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Vehicle\NxWheel.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Vehicle\NxWheelDesc.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Vehicle\NxLinearInterpolationValues.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
